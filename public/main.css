@@ -2,10 +2,21 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
 }
 
-.clipboard-button {
+/* Style for Clipboard */
+/* .clipboard-button {
     display: none;
 }
 
 .clipboard--supported .clipboard-button {
     display: initial;
+} */
+
+
+/* Style for Slideshow */
+.slide {
+    display: none;
+}
+
+.slide .slide--current {
+    display: block;
 }
