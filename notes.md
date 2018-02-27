@@ -6,10 +6,8 @@ Types:
 * data-target
 * data-action
 
-```
-`click->` has been omitted from the action descriptor.
-`data-action="click->clipboard#copy` vs `data-action="clipboard#copy`
-```
+> `click->` has been omitted from the action descriptor.
+> `data-action="click->clipboard#copy` vs `data-action="clipboard#copy`
 
 Default Events:
 
