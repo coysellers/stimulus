@@ -17,6 +17,6 @@ body {
     display: none;
 }
 
-.slide .slide--current {
+.slide.slide--current {
     display: block;
 }
