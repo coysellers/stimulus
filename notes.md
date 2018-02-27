@@ -77,4 +77,4 @@ Example:
 
 ### Persisting State in the DOM
 
-*** More notes to come. Stuck on issue with App. ***
+**More notes to come. Stuck on issue with App.**
