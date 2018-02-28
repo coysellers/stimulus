@@ -6,18 +6,11 @@
     <script src="bundle.js" async></script>
 </head>
 <body>
-    <h1>Build Something Real</h1>
+    <h1>Async</h1>
     <div
-        data-controller="slideshow"
-        data-slideshow-index="1"
-    >
-        <button data-action="slideshow#previous">←</button>
-        <button data-action="slideshow#next">→</button>
-      
-        <div data-target="slideshow.slide" class="slide">🐵</div>
-        <div data-target="slideshow.slide" class="slide">🙈</div>
-        <div data-target="slideshow.slide" class="slide">🙉</div>
-        <div data-target="slideshow.slide" class="slide">🙊</div>
-    </div>
+        data-controller="content-loader"
+        data-content-loader-url="/messages.html"
+        data-content-loader-refresh-interval="5000"
+    ></div>
 </body>
 </html>
