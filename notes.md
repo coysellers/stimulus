@@ -73,6 +73,23 @@ Example:
 * HTML = `data-slideshow-current-class-name`
 * JavaScript = `this.data.get("currentClassName")`
 
-### Persisting State in the DOM
+_lifecycle callback_ methods:
 
-**More notes to come. Stuck on issue with App.**
+| Callback | Invoked by Stimulus |
+| --- | :---: |
+| `initialize()` | once, when the controller is first instantiated |
+| `connect()` | anytime the controller is connected to the DOM |
+| `disconnect()`| anytime the controller is disconnected from the DOM |
+
+
+## Working With External Resources
+
+_external_ meaning anything that isn’t in the DOM or a part of Stimulus.
+
+### Asynchronously Loading HTML
+
+Working with the `data-content-loader-url` and `data-content-loader-refresh-interval` attributes.
+
+Examples:
+* `data-content-loader-url="/messages.html"`
+* `data-content-loader-refresh-interval="5000"`
